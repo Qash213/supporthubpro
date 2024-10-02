@@ -1,0 +1,51 @@
+[0m[0;4m [0m[0m[0;4m UNIT                                                 [0m[0m[0;4m LOAD  [0m[0m[0;4m ACTIVE[0m[0m[0;4m SUB    [0m[0m[0;4m DESCRIPTION                                                                  [0m
+  auditd.service                                        loaded active running Security Auditing Service
+  chronyd.service                                       loaded active running NTP client/server
+  cloud-config.service                                  loaded active exited  Apply the settings specified in cloud-config
+  cloud-final.service                                   loaded active exited  Execute cloud user/final scripts
+  cloud-init-local.service                              loaded active exited  Initial cloud-init job (pre-networking)
+  cloud-init.service                                    loaded active exited  Initial cloud-init job (metadata service crawler)
+  crond.service                                         loaded active running Command Scheduler
+  dbus-broker.service                                   loaded active running D-Bus System Message Bus
+  dracut-shutdown.service                               loaded active exited  Restore /run/initramfs on shutdown
+  getty@tty1.service                                    loaded active running Getty on tty1
+  httpd.service                                         loaded active running The Apache HTTP Server
+  irqbalance.service                                    loaded active running irqbalance daemon
+  kdump.service                                         loaded active exited  Crash recovery kernel arming
+  kmod-static-nodes.service                             loaded active exited  Create List of Static Device Nodes
+  lvm2-monitor.service                                  loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  mariadb.service                                       loaded active running MariaDB 10.5 database server
+  NetworkManager-wait-online.service                    loaded active exited  Network Manager Wait Online
+  NetworkManager.service                                loaded active running Network Manager
+  nis-domainname.service                                loaded active exited  Read and set NIS domainname from /etc/sysconfig/network
+  php-fpm.service                                       loaded active running The PHP FastCGI Process Manager
+  qemu-guest-agent.service                              loaded active running QEMU Guest Agent
+  rsyslog.service                                       loaded active running System Logging Service
+  serial-getty@ttyS0.service                            loaded active running Serial Getty on ttyS0
+  sshd.service                                          loaded active running OpenSSH server daemon
+[0;1;31m●[0m[0;1;31m [0m[0;1;31msssd.service                                         [0m[0;1;31m [0mloaded [0;1;31mfailed[0m[0;1;31m [0m[0;1;31mfailed [0m[0;1;31m [0mSystem Security Services Daemon
+  systemd-boot-update.service                           loaded active exited  Automatic Boot Loader Update
+  systemd-fsck-root.service                             loaded active exited  File System Check on Root Device
+  systemd-fsck@dev-disk-by\x2duuid-7EA1\x2dFA63.service loaded active exited  File System Check on /dev/disk/by-uuid/7EA1-FA63
+  systemd-journal-flush.service                         loaded active exited  Flush Journal to Persistent Storage
+  systemd-journald.service                              loaded active running Journal Service
+  systemd-logind.service                                loaded active running User Login Management
+  systemd-modules-load.service                          loaded active exited  Load Kernel Modules
+  systemd-network-generator.service                     loaded active exited  Generate network units from Kernel command line
+  systemd-random-seed.service                           loaded active exited  Load/Save OS Random Seed
+  systemd-remount-fs.service                            loaded active exited  Remount Root and Kernel File Systems
+  systemd-sysctl.service                                loaded active exited  Apply Kernel Variables
+  systemd-tmpfiles-setup-dev.service                    loaded active exited  Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                        loaded active exited  Create Volatile Files and Directories
+  systemd-udev-trigger.service                          loaded active exited  Coldplug All udev Devices
+  systemd-udevd.service                                 loaded active running Rule-based Manager for Device Events and Files
+  systemd-update-utmp.service                           loaded active exited  Record System Boot/Shutdown in UTMP
+  systemd-user-sessions.service                         loaded active exited  Permit User Sessions
+  user-runtime-dir@0.service                            loaded active exited  User Runtime Directory /run/user/0
+  user@0.service                                        loaded active running User Manager for UID 0
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+[0;1;39m44 loaded units listed.[0m Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.

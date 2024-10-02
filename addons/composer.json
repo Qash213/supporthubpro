@@ -1,0 +1,14 @@
+{
+    "name": "uhelp/addons",
+    "description": "uhelp addons",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Uhelp\\Addons\\": "src/",
+            "Uhelp\\Addons\\App": "src/app"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

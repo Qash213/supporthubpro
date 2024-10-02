@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using clean-css v4.2.1.
+ * Original file: /npm/rater-js@1.0.1/lib/style.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+ .star-rating{width:0;position:relative;display:inline-block;background-image:url(star_0.svg);background-position:0 0;background-repeat:repeat-x;cursor:pointer}.star-rating .star-value{position:absolute;height:100%;width:100%;background:url(./star_1.svg);background-repeat:repeat-x}.star-rating.disabled{cursor:default}.star-rating.is-busy{cursor:wait}.star-rating .star-value.rtl{-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:FlipH;right:0;left:auto}
+ /*# sourceMappingURL=/sm/05c4c43c6d769fd7741a2e567dd96f5b1ea6054b68fb5f7f0f72364472062953.map */

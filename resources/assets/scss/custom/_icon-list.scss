@@ -1,0 +1,42 @@
+/*------ Icons List ------*/
+svg {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.icons-list {
+	list-style: none;
+	margin: 0 -1px -1px 0;
+	padding: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	>li {
+		-ms-flex: 1 0 3rem;
+		flex: 1 0 3rem;
+	}
+}
+.icons-list-wrap {
+	overflow: hidden;
+}
+.icons-list-item {
+	text-align: center;
+	height: 3rem;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border: $border;
+	margin: 4px;
+	border-radius: 5px;
+	background: #f1f4fb;
+	i {
+		font-size: 16px;
+	}
+	.svg-icon{
+	 	width:18px;
+	 	height:18px;
+	}
+}
